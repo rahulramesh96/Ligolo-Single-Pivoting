@@ -17,15 +17,20 @@ If (compromised host = Windows)
 
 ## 5. Run from Ligolo Proxy (From Attacking Machine)
 `session`
+
 `1`
+
 `ifconfig`
 
 In the above ifconfig command, copy the IP address of the interface. Let us assume the IP is 172.16.1.100
 
 ## 6. Run the following commands on the attacking machine to set up the interface.
 `sudo modprobe tun`
+
 `sudo ip tuntap add mode tun dev ligolo`
+
 `sudo ip route add 172.16.1.0/24 dev ligolo`
+
 `ip route list`
 
 ## Do you see the Ligolo interface now? If not, repeat the above steps.
