@@ -1,4 +1,4 @@
-1. Run Python web server from attacking machine. Host the 'agent.exe/agent' file.
+## 1. Run Python web server from attacking machine. Host the 'agent.exe/agent' file.
 `python3 -m http.server 8000`
 
 2. Run from the compromised host.
